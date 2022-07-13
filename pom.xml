@@ -83,7 +83,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 		
-		<!-- provided dependencies 
+		<!-- provided dependencies -->
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -92,7 +92,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		-->
+		
 		
 	</dependencies>
 	
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.171.43/:8081/7D/repository/walmart-release/</url>
+	      <url>http://3.110.171.43:8081/7D/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.171.43/:8081/7D/repository/walmart-snapshot/</url>
+	      <url>http://3.110.171.43:8081/7D/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
