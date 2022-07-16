@@ -12,7 +12,7 @@ triggers {
 }
 
 options {
-  timestamps
+  timestamps()
 }
 
 options {
